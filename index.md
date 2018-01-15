@@ -1,0 +1,1 @@
+I am a software engineer that enjoys coffee, reading, and the beach. In my downtime, I enjoy developing and reading about software. I hope to use this medium to share things that I learn along the way.
