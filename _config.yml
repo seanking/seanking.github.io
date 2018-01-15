@@ -1,1 +1,3 @@
+name: Sean King
 theme: jekyll-theme-minimal
+permalink: /blog/:year/:month/:day/:title
