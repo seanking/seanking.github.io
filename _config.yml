@@ -1,3 +1,16 @@
+theme: jekyll-sleek
 name: Sean King
-theme: jekyll-theme-minimal
+title: Sean King
+author: Sean King
+email: r.sean.king@gmail.com
+url: "https://seanking.github.io/"
+twitter_username: rseanking
+github_username: seanking
+social:
+  name: Sean King
+  links:
+    - https://twitter.com/rseanking
+    - https://www.linkedin.com/in/rseanking
+    - https://github.com/seanking
+
 permalink: /blog/:year/:month/:day/:title
