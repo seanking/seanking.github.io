@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Spring Cloud Config"
-featured-img: spring-cloud-config
 ---
 
 # Spring Cloud Config
