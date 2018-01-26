@@ -2,3 +2,5 @@
 .DS_Store
 Gemfile*
 _site/
+.package-lock.json
+node_modules/
