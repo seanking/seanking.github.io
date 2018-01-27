@@ -2,7 +2,6 @@ name: Sean King
 title: Sean King
 author: Sean King
 email: r.sean.king@gmail.com
-url: "https://seanking.github.io/"
 twitter_username: rseanking
 github_username: seanking
 social:
@@ -12,8 +11,10 @@ social:
     - https://www.linkedin.com/in/rseanking
     - https://github.com/seanking
 
-permalink: /blog/:year/:month/:day/:title
+permalink: pretty
+permalink: /blog/:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   
