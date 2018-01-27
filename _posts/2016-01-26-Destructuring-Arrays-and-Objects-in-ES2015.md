@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Destructuring Arrays and Objects in ES2015/ES6"
+title: Destructuring Arrays and Objects in ES2015/ES6
+redirect_from: news/2016/1/24/destructing-arrays-and-objects-in-es2015/
 ---
 
 ## Destructuring Arrays and Objects in ES2015

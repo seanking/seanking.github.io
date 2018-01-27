@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Iterators in ES2015/ES6"
+title: Iterators in ES2015/ES6
+redirect_from: news/2016/2/1/iterators-generators-and-async-programming-part-1/
 ---
 
 # Iterators in ES2015

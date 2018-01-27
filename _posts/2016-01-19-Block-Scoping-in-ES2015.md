@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Block Scoping in ES2015/ES6"
+title: Block Scoping in ES2015/ES6
+redirect_from: news/2016/1/13/let-and-cost-es2015/
 ---
 
 ## Block Scoping in ES2015/ES6
