@@ -18,6 +18,6 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-site.google_tag_manager: UA-113421066-1
+google_tag_manager: UA-113421066-1
   
 exclude: ["Gemfile", "Gemfile.lock", "node_modules", "package.json", "package-lock.json"]
