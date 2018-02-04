@@ -8,22 +8,22 @@ Like most tech products that I am interested in, I went to the [Wirecutter](http
 
 The following were the most important features to me in choosing a NAS server.
 
-| Feature                | Synology DS218+ | Qnap TS-251A
-|------------------------|-----------------|-------------
-| Web Interface          | Supported       | Supported
-| RAID 1 mirror          | Supported       | Supported
-| Hot Swappable Drives   | Supported       | Supported
-| Encryption             | Supported       | Supported
-| Bonjour                | Supported       | Supported
-| Wake-On-LAN            | Supported       | Supported
-| Time Machine Support   | Supported       | Supported
-| Rsync                  | Supported       | Supported
-| Size Quotas for Folders| Supported       | Supported
-| Docker                 | Supported       | Supported
-| UPS Support            | Supported       | Supported
-| Two Hard Drive Bays    | Supported       | Supported
-| Upgradable RAM         | Supported       | Supported
-| Btrfs                  | Supported       | Unsupported
+| Feature                 | Synology DS218+ | Qnap TS-251A
+|-------------------------|-----------------|-------------
+| Web Interface           | Supported       | Supported
+| RAID 1 mirror           | Supported       | Supported
+| Hot Swappable Drives    | Supported       | Supported
+| Encryption              | Supported       | Supported
+| Bonjour                 | Supported       | Supported
+| Wake-On-LAN             | Supported       | Supported
+| Time Machine Support    | Supported       | Supported
+| Rsync                   | Supported       | Supported
+| Size Quotas for Folders | Supported       | Supported
+| Docker                  | Supported       | Supported
+| UPS Support             | Supported       | Supported
+| Two Hard Drive Bays     | Supported       | Supported
+| Upgradable RAM          | Supported       | Supported
+| Btrfs                   | Supported       | Unsupported
 
 Since this was going to be a server that was mainly for storing backups and version control, the Synlogy DS218+ support for [btrfs](https://en.wikipedia.org/wiki/Btrfs) made it a clear winner for me.
 
