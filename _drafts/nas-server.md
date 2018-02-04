@@ -1,3 +1,8 @@
+---
+layout: post
+title: NAS Server
+---
+
 # NAS Server
 
 I used a [2009 Mac Mini Server](https://arstechnica.com/gadgets/2010/01/mac-mini-with-snow-leopard-server-review/) for years to support my need for a NAS server. The Mac Mini was used for network storage, a Time Machine backups, a GitLab Server, and a Build Server. The Mac Mini worked great throughout the years, but it is 2018 and time to upgrade. Apple has forced my hand to look else where because they are deprecating key features in the next release of macOS Server and they has not provided a substantial hardware upgraded to the Mac Mini in years.
@@ -31,8 +36,8 @@ Btrfs is a CoW (copy on write) filesytem that supports checksums and snapshots. 
 
 The QNap did have some advantages over the Synology, but they weren't important to me. The QNap supports being directly plugged into a TV via HDMI and comes with a remote for media controls. I don't see myself using the NAS server as a media server, but if I did, I would use [Plex](https://www.plex.tv) Media Server and stream media using the Plex clients for iOS, Andriod, Apple TV, Chromecast, and Tivo.
 
-The one disappointment I have with my purchase has nothing to do with the Synology, but more with the hard drives that I purchased. I purchased two 3TB Western Digital Red drives. I chose these dries because I read they were quiet and were designed run in NAS servers. It is true that the drives are quiet...  in idle conditions. However, the drives are **super** loud when accessing the platters [^1]. The drive access was so loud that I had to move the server out of the office and into another room.
+The one disappointment I have with my purchase has nothing to do with the Synology, but more with the hard drives that I purchased. I purchased two [3TB Western Digital Red](https://www.amazon.com/Red-3TB-Hard-Disk-Drive/dp/B008JJLW4M) drives. I chose these dries because I read they were quiet and were designed run in NAS servers. It is true that the drives are quiet...  in idle conditions. However, the drives are **super** loud when accessing the platters [^1]. The drive access was so loud that I had to move the server out of the office and into another room.
 
 Overall, I am happy with my purchase of the Synology DS218+. I am able to do all the things that I required from a NAS server. Time machine backups are much quicker now than with my Mac Mini, thanks to the new hardware. The support for running Docker containers allowed me to quickly spin up a [GitLab](https://about.gitlab.com) server and a [Nexus](http://www.sonatype.org/nexus/) server.
 
-[^1]: It appears that the newest WD Red drives are much louder than the original WD Red drives released a few years back. So most of the reviews of the drives can be misleading.
+[^1]: It appears that the newest WD Red drives are louder than the original WD Red drives released a few years back. Most of the older reviews regarding the sounds levels of the drives can be misleading.
