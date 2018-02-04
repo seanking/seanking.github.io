@@ -1,9 +1,8 @@
 ---
 layout: post
-title: NAS Server
+title: NAS Server Purchase
 ---
-
-# NAS Server
+# NAS Server Purchase
 
 I used a [2009 Mac Mini Server](https://arstechnica.com/gadgets/2010/01/mac-mini-with-snow-leopard-server-review/) for years to support my need for a NAS server. The Mac Mini was used for network storage, a Time Machine backups, a GitLab Server, and a Build Server. The Mac Mini worked great throughout the years, but it is 2018 and time to upgrade. Apple has forced my hand to look else where because they are deprecating key features in the next release of macOS Server and they has not provided a substantial hardware upgraded to the Mac Mini in years.
 
