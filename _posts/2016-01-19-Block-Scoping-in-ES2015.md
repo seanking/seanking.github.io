@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Block Scoping in ES2015/ES6
+description: Introduction into Block Scoping in ES2015/ES6 (var, let, and const)
 redirect_from: news/2016/1/13/let-and-cost-es2015/
 ---
 
@@ -45,7 +46,7 @@ Do you see why the following function will print 3, 3 and 3?
 function countWithPause() {
   for (var i = 0; i < 3; i++) {
     var milliseconds = 100;
-    
+
     setTimeout(function print() {
       console.log(i); //prints 3, 3, 3
     }, milliseconds);
@@ -66,7 +67,7 @@ Updating the previous example to use a let statement will provide different resu
 function countWithPause() {
   for (let i = 0; i < 3; i++) {
     var milliseconds = 100;
-    
+
     setTimeout(function print() {
       console.log(i); // prints 0, 1, 2
     }, milliseconds);

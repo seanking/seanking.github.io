@@ -1,6 +1,7 @@
 ---
 layout: post
 title: NAS Purchase
+description: NAS Purchase (Synology DS218+ vs Qnap TS-251A)
 ---
 # NAS Purchase
 

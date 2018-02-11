@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Generators in ES2015/ES6
+description: Introduction into Generators in ES2015/ES6
 redirect_from: news/2016/2/8/generators-in-es2015/
 ---
 

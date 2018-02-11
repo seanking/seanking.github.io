@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spring Cloud Config
+description: Introduction into Spring Cloud Config (@SpringBootApplication, @EnableConfigServer, @EnableConfigServer, etc...)
 redirect_from: news/2018/1/6/spring-cloud-config/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Futures in Java
+description: Introduction into Futures in Java
 redirect_from: news/2016/4/7/futures-in-java/
 ---
 # Futures in Java

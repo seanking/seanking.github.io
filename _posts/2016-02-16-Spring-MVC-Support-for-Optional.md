@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Spring MVC support for java.util.Optional
+description: Introduction into Spring MVC support for java.util.Optional
 redirect_from: news/2016/2/15/spring-mvc-support-for-javautiloptional/
 ---
 
