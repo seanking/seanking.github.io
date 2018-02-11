@@ -17,6 +17,7 @@ permalink: /blog/:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
 
 google_tag_manager: UA-113421066-1
   
