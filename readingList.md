@@ -5,15 +5,16 @@ permalink: /readingList/
 ---
 
 # Reading
-
-[Effective Java Third Edition](https://www.informit.com/store/effective-java-9780134685991) _by Joshua Bloch_ 
+[The Lean Startup](http://theleanstartup.com/book) _by Eric Ries_  
+[Effective Java Third Edition](https://www.informit.com/store/effective-java-9780134685991) _by Joshua Bloch_  
 
 # Recent Notables
-
+[Remote](https://basecamp.com/books/remote) _by Jason Fried & David Heinemeier Hansson_  
+[Rework](https://basecamp.com/books/rework) _by Jason Fried & David Heinemeier Hansson_  
+[On Writing Well](https://www.amazon.com/dp/B0090RVGW0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) _By William Zinsser_  
 [Spring Microservices in Action](https://www.manning.com/books/spring-microservices-in-action) _by John Carnel_  
 [Implementing Domain-Driven Design](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577) _by Vaughn Vernon_  
 [Elasticsearch in Action](https://www.manning.com/books/elasticsearch-in-action) _by Radu Gheorghe, Matthew Lee Hinman, and Roy Russo_  
-[Sails.js in Action](https://www.manning.com/books/sails-js-in-action) _by Michael R. McNeil and Irl I. Nathan_  
 [Web Components in Action](https://www.manning.com/books/web-components-in-action-cx) _by Chris Bucket_  
 [The Docker Book](http://www.dockerbook.com/) _by James Turnbull_  
 [The Goal: A Process of Ongoing Improvement](http://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951/ref=sr_1_1?s=books&ie=UTF8&qid=1452651317&sr=1-1&keywords=the+goal) _by Eliyahu M. Goldratt and Jeff Cox_  
@@ -27,3 +28,5 @@ permalink: /readingList/
 [JavaScript: The Good Parts](http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742) _by Douglas Crockford_  
 [Clean Code: A Handbook of Agile Software Craftsmanship](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook/dp/B001GSTOAM/ref=dp_kinw_strp_1) _by Robert Martin_  
 [The Clean Coder: A Code of Conduct for Professional Programmers](http://www.amazon.com/The-Clean-Coder-Professional-Programmers-ebook/dp/B0050JLC9Y/ref=pd_sim_351_2?ie=UTF8&dpID=51MoTaVrS7L&dpSrc=sims&preST=_AC_UL160_SR123%2C160_&refRID=002TXN2DT556PES4C80A) _by Robert Martin_  
+[Design Patters](https://en.wikipedia.org/wiki/Design_Patterns) _by Erich Gamma, Richard Helm, Ralph Johnson and John Vlissides_  
+[Effective Java 2nd Edition](https://www.amazon.com/Effective-Java-2nd-Joshua-Bloch/dp/0321356683) _by Joshua Bloch_  
