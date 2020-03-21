@@ -12,7 +12,7 @@ permalink: /readingList/
 [Clean Agile: Back to Basics](https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868) _by Robert C. Martin_  
 [It Doesn't Have to Be Crazy at Work](https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780) _by Jason Fried_  
 [Learning React: Functional Web Development with React and Redux 1st Edition](https://www.amazon.com/Learning-React-Functional-Development-Redux/dp/1491954620) _by Alex Banks_  
-[The Pragmatic Programmer, 20th Anniversary Edition](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition) _by David Thomas, Andrew Hunt_  
+[The Pragmatic Programmer, 20th Anniversary Edition](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition) _by David Thomas and Andrew Hunt_  
 [MongoDB in Action Second Edition](https://www.manning.com/books/mongodb-in-action-second-edition) _by Kyle Banker_  
 [The Elements of Style](https://www.amazon.com/Elements-Style-William-Strunk-ebook/dp/B005IT0V8O) _by William Strunk Jr._  
 [The Lean Startup](http://theleanstartup.com/book) _by Eric Ries_  
