@@ -5,14 +5,17 @@ permalink: /readingList/
 ---
 
 # Reading
-[Kafka in Action](https://www.manning.com/books/kafka-in-action) _by Dylan Scott_  
-[Spark in Action](https://www.manning.com/books/spark-in-action-second-edition) _by Jean-Georges Perrin_  
+[Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration](https://www.amazon.com/dp/B00FUZQYBO) _by Ed Catmull_
+
 # Recent Notables
+[Kotlin in Action](https://www.manning.com/books/kotlin-in-action) _by Dmitry Jemerov and Svetlana Isakova_
 [The Kubernetes Book](https://www.amazon.com/Kubernetes-Book-Version-November-2018-ebook/dp/B072TS9ZQZ) _by Nigel Poulton_  
+[Kafka in Action](https://www.manning.com/books/kafka-in-action) _by Dylan Scott_  
+[Learning React: Functional Web Development with React and Redux 1st Edition](https://www.amazon.com/Learning-React-Functional-Development-Redux/dp/1491954620) _by Alex Banks_  
+[Spark in Action](https://www.manning.com/books/spark-in-action-second-edition) _by Jean-Georges Perrin_ 
 [Clean Agile: Back to Basics](https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868) _by Robert C. Martin_  
 [It Doesn't Have to Be Crazy at Work](https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780) _by Jason Fried_  
-[Learning React: Functional Web Development with React and Redux 1st Edition](https://www.amazon.com/Learning-React-Functional-Development-Redux/dp/1491954620) _by Alex Banks_  
-[The Pragmatic Programmer, 20th Anniversary Edition](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition) _by David Thomas and Andrew Hunt_  
+[The Pragmatic Programmer, 20th Anniversary Edition](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition) _by David Thomas, Andrew Hunt_  
 [MongoDB in Action Second Edition](https://www.manning.com/books/mongodb-in-action-second-edition) _by Kyle Banker_  
 [The Elements of Style](https://www.amazon.com/Elements-Style-William-Strunk-ebook/dp/B005IT0V8O) _by William Strunk Jr._  
 [The Lean Startup](http://theleanstartup.com/book) _by Eric Ries_  
