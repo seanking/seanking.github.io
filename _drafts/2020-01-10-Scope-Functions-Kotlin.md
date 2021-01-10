@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Scoped Functions in Kotlin
-description: Scoped Functions in Kotlin
+title: Scope Functions in Kotlin
+description: Scope Functions in Kotlin
 ---
 # Purpose
 
