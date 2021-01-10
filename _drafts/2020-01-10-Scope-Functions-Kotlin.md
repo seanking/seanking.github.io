@@ -3,15 +3,16 @@ layout: post
 title: Scope Functions in Kotlin
 description: Scope Functions in Kotlin
 ---
-# Purpose
 
-While I have always be interested in Kotlin, I now starting to use it more professionally. Like most languages, there are many things that I like and a few things that I don't like about Kotlin. Over the next few blog posts, I plan to describe some of the features with in the language that I find benefical and some that are confusing and/or annoying.  
+# Scope Fuctions in Kotlin
 
-# Scope Functions
+While I have always been interested in the [Kotlin](https://kotlinlang.org) programming language, one of my software development teams is starting to use it. Like most languages, there are many things that I like, and a few things that I dislike about Kotlin. Over the next few blog posts, I plan to describe features within the language that I find beneficial, and some that are confusing and/or annoying.
 
-Scope functions have been a pleasant surprise. Scope functions in Kotlin provide the ability to execute a block of code within the context of an object. This does sound trivial, but let me provide some examples that I hope will clariry their capabilities. 
+## Overview
 
-There are five scope functions: `let`, `run`, `with`, `apply`, and `also`. Each function is slightly different in object reference and return value. The table below provides a overview of the differences between the functions. Next, I will go over each of these functions in more detail.
+Scope functions have been a pleasant surprise. They provide the ability to execute a block of code within the context of an object. This sounds trivial, but let me provide some examples that I hope will clarify their capabilities.
+
+There are five scope functions: `let`, `run`, `with`, `apply`, and `also`. Each function is slightly different in the object reference for the lambda and return value of the function. The table below provides an overview of the functions, detailing their similarities and differences.
 
 ### Function Selection 
 
@@ -24,11 +25,11 @@ There are five scope functions: `let`, `run`, `with`, `apply`, and `also`. Each 
 | apply     | this             | Context object | Yes
 | also      | it               | Context object | Yes
 
-The previous table was copied from Kotlin's website. See: [function-selection](https://kotlinlang.org/docs/reference/scope-functions.html#function-selection)
+Kotlin's website defines the above functional selection table. See: [Function Selection](https://kotlinlang.org/docs/reference/scope-functions.html#function-selection)
 
 ## Let Function
 
-The let function is heavily used within Kotlin. It is often used for executing lambdas on non-null objects and for introducing an expression as a variable in local scope. 
+Kotlin software commonly uses the `let` function for executing lambdas on non-null objects and for introducing an expression as a variable in the local scope. 
 
 
 ```kotlin
@@ -49,7 +50,7 @@ fun `should use _it_ as object reference and return lambda result using _let_ fu
 }
 ```
 
-The previous example executes the `let` function on a list of integers. The lambda then intrements the count the list using the `it` variable and returns the resulting count. This is a contrivied example, but hopefully it shows the capabiliy of the `let` function.  The `let` function is probably more commonly used to execute a lambda on a non-null object.
+The previous example executes the `let` function on a list of integers. The lambda adds to the list using the `it` variable and returns the resulting count. This is a contrived example, but hopefully it shows the capability of the `let` function.  The `let` function is probably more commonly used to execute lambdas on non-null objects.
 
 ```kotlin
 @Test
@@ -65,7 +66,7 @@ fun `should execute code block for non-null values`() {
 }
 ```
 
-In the previous example, the code uses the safe operator (i.e., `?.`) in Kotlin in combination with the `let` function to execute a lambda on a non-null object.
+In the previous example, the code uses the safe operator (i.e., `?.`) in combination with the `let` function to execute a lambda on a non-null object. This results in the message variable being "Hello World!".
 
 ```kotlin
 @Test
@@ -81,12 +82,12 @@ fun `should not execute code block for non-null values`() {
 }
 ```
 
-In the previous exampe, the lambda for the `let` function isn't executed so the `message` variable is null. 
+In the previous example, the lambda for the `let` function isn't executed because the `optionalVal` was null. This results in the `message` variable being null. 
 
 
 ### Run
 
-The `run` function is Kotlin is commonly used for object creation and computing a result. A good example for this would be instantiating a service, configuring the properties (e.g., ports), executing the service, and return the results.
+The `run` function is commonly used for object creation and computing a result. A good example for this would be instantiating a service, configuring the properties (e.g., ports), executing the service, and returning the results.
 
 ```kotlin
 val service = HttpService()
@@ -98,7 +99,7 @@ val result = service.run {
 }
 ```
 
-The following is a simple unit test that can be used to experiment wth the `run` function.
+The following is another contrived unit test. It can be used to experiment wth the `run` function.
 
 ```kotlin
 @Test
@@ -118,14 +119,17 @@ fun `should use _this_ as object reference and return lambda result using _run_ 
 }
 ```
 
+The previous example executes the `run` function on a list of integers. The lambda adds to the list using the list as the context and returns the resulting count. This is another artificial example, but hopefully it shows the capability of the `run` function.
 
 ### With
+
+The `with` function isn't an extension function, meaning it a regular function that takes the context object as a parameter and returns the result of the lambda. 
 
 ```kotlin
 @Test
 fun `should use _this_ as object reference and return lambda result using _with_ function`() {
     // Given
-    val numbers = mutableListOf<Int>(1,2 )
+    val numbers = mutableListOf<Int>(1, 2)
 
     // When
     val count = with(numbers) {
@@ -137,14 +141,27 @@ fun `should use _this_ as object reference and return lambda result using _with_
 }
 ```
 
+The previous example is a simple example of using the `with` function. The `with` function was called with the `numbers` variable, therefore scoping the following calls to `numbers`. The `with` function is commonly used to group function calls on an object.
+
 ### Apply 
+
+The `apply` function provides `this` as an object reference and returns the context object. The `apply` function is commonly used to configure objects. 
+
+```kotlin
+val mongoDBContainer = MongoDBContainer().apply{
+    withExposedPorts(27017) 
+    start()
+}
+```
+
+The previous example configures a [Mongo TestContainer](https://www.testcontainers.org/modules/databases/mongodb/) using the `apply` function. It creates an instance of `MongoDBContainer` and calls the `apply` function on the instantiated object. The `apply` function scopes the context of the lambda to the `MongoDBContainer` object and returns the object. 
 
 ```kotlin
  @Test
 fun `should use _this_ as object reference and return context object using _apply_ function`() {
     // When
     val numbers = mutableListOf<Int>().apply {
-        add(1);
+        add(1)
         add(2)
     }
 
@@ -153,14 +170,18 @@ fun `should use _this_ as object reference and return context object using _appl
 }
 ```
 
+The previous example is a unit test that can be used to easily experiment with the `apply` function. This is another contrived example, but it demonstrates instantiating a list, adding integers the list, and returning the list.  
+
 ### Also
+
+The `also` function is a scope function that is commonly used to provide additional effects to an object. The `also` function provides the context object as the argument `it` and returns the context object.   
 
 ```kotlin
 @Test
 fun `should use _it_ as object reference and return context object using _also_ function`() {
     // When
     val numbers = mutableListOf<Int>().also {
-        it.add(1);
+        it.add(1)
         it.add(2)
     }
 
@@ -169,7 +190,8 @@ fun `should use _it_ as object reference and return context object using _also_ 
 }
 ```
 
+This example is another is similar to the `apply` function, but the context object is referencable as `it`.  
+
 ## Summary
 
-I hope this blog post has provided some insight into _scope functions_ within Kotlin. If you want to expirment with any of the examples, they can be found [here](https://github.com/seanking/scope-functions-kotlin) in GitHub.
-
+Scope functions are great for providing temporary scope and very useful in improving readability of code. I find code that limits scope and mutability is easier for me to read. Scope functions definitely help to limit scope and therefore improve readability for me. I hope this blog post has provided some insight into _scope functions_ within Kotlin. If you want to experiment with any of the examples, they can be found [here](https://github.com/seanking/scope-functions-kotlin) in GitHub.

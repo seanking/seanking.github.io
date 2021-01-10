@@ -1,5 +1,5 @@
 .ruby-version
 .DS_Store
 Gemfile*
-_site/
-node_modules/
+_site
+node_modules
