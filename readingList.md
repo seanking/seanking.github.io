@@ -21,7 +21,6 @@ permalink: /readingList/
 [The Lean Startup](http://theleanstartup.com/book) _by Eric Ries_  
 [Effective Java Third Edition](https://www.informit.com/store/effective-java-9780134685991) _by Joshua Bloch_  
 [Remote](https://basecamp.com/books/remote) _by Jason Fried & David Heinemeier Hansson_  
-[Rework](https://basecamp.com/books/rework) _by Jason Fried & David Heinemeier Hansson_  
 [On Writing Well](https://www.amazon.com/dp/B0090RVGW0) _By William Zinsser_  
 [Spring Microservices in Action](https://www.manning.com/books/spring-microservices-in-action) _by John Carnel_  
 [Implementing Domain-Driven Design](https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577) _by Vaughn Vernon_  
