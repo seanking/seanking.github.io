@@ -34,7 +34,7 @@ Kotlin software commonly uses the `let` function for executing lambdas on non-nu
 
 ```kotlin
 @Test
-fun `should use _it_ as object reference and return lambda result using _let_ function`() {
+fun `should use it as object reference and return lambda result using let function`() {
     // Given
     val numbers = mutableListOf<Int>()
 
@@ -103,7 +103,7 @@ The following is another contrived unit test. It can be used to experiment wth t
 
 ```kotlin
 @Test
-fun `should use _this_ as object reference and return lambda result using _run_ function`() {
+fun `should use this as object reference and return lambda result using run function`() {
     // Given
     val numbers = mutableListOf<Int>()
 
@@ -127,7 +127,7 @@ The `with` function isn't an extension function, meaning it a regular function t
 
 ```kotlin
 @Test
-fun `should use _this_ as object reference and return lambda result using _with_ function`() {
+fun `should use this as object reference and return lambda result using with function`() {
     // Given
     val numbers = mutableListOf<Int>(1, 2)
 
@@ -158,7 +158,7 @@ The previous example configures a [Mongo TestContainer](https://www.testcontaine
 
 ```kotlin
  @Test
-fun `should use _this_ as object reference and return context object using _apply_ function`() {
+fun `should use this as object reference and return context object using apply function`() {
     // When
     val numbers = mutableListOf<Int>().apply {
         add(1)
@@ -178,7 +178,7 @@ The `also` function is a scope function that is commonly used to provide additio
 
 ```kotlin
 @Test
-fun `should use _it_ as object reference and return context object using _also_ function`() {
+fun `should use it as object reference and return context object using also function`() {
     // When
     val numbers = mutableListOf<Int>().also {
         it.add(1)
