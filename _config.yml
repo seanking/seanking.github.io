@@ -17,6 +17,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
 
+google_tag_manager: UA-113421066-1
+
 exclude: 
   - Gemfile
   - Gemfile.lock
