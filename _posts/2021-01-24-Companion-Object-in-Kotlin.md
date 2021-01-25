@@ -39,7 +39,7 @@ val person = Person.defaultPerson()
 ```
 
 Since Kotlin is compiled into bytecode, companion objects can be accessed in Java. The following example demonstrates 
-the accessing of a companion object in Java. Since there wasn't provided for the `Person` companion object,
+the accessing of a companion object in Java. Since there wasn't a name provided for the `Person` companion object,
 the default name of `Companion` is provided to the object. This means the companion object can be accessed by using the 
 qualifier `Person.Companion`.
 
