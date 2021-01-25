@@ -26,7 +26,7 @@ assert(firstObject === secondObject)
 
 A companion object is the declaration of an object inside a class. The companion object can be accessed similarly to 
 the way static fields and methods are accessed in Java, the class is used as a qualifier. The following is a declaration
-of a companion object in the Person class. 
+of a companion object in the `Person` class. 
 
 ```kotlin
 class Person(val firstName: String, val lastName: String) {
@@ -39,7 +39,7 @@ val person = Person.defaultPerson()
 ```
 
 Since Kotlin is compiled into bytecode, companion objects can be accessed in Java. The following example demonstrates 
-the accessing of a companion object in Java. Since there wasn't a name given to the `Person` companion object,
+the accessing of a companion object in Java. Since there wasn't provided for the `Person` companion object,
 the default name of `Companion` is provided to the object. This means the companion object can be accessed by using the 
 qualifier `Person.Companion`.
 
@@ -70,7 +70,7 @@ Since the companion object was named as `CarFactory`, the companion object is ac
 var car = Car.CarFactory.create();
 ```
 
-Some JVM libraries (e.g., JUnit) depend on static methods. To support these libraries Kotlin has an `@JvmStatic` 
+Some JVM libraries (e.g., JUnit) depend on static methods. To support these libraries Kotlin has a `@JvmStatic` 
 annotation. The `@JvmStatic` annotation instructs the Kotlin compiler to generate real static fields and methods.
 
 ```kotlin
@@ -82,8 +82,8 @@ class Dog(val breed: String) {
 }
 ```
 
-In the following Java example, the companion object method can be accessed like a traditional static method because it 
-was annotated with `@JvmStatic`.
+In the following Java example, the companion object's method that was annotated with `@JvmStatic` can be accessed as a 
+traditional static method.
 
 ```java
 var dog = Dog.defaultDog();
