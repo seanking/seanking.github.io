@@ -2,7 +2,7 @@
 
 It has been about a month since I purchased a new Apple MacBook Air with an M1 processor. The machine was purchased for personal use, so I don't use it for a lot of development, but I have used it as a trial run for future professional purchases. Most of the reviews for it have been spot on. The CPU performance has been amazing, the battery life is unprecedented, and the thermals... are the biggest win. I have yet to feel MacBook Air get warm, as opposed to my 2017 MacBook Pro that seems to get hot just by opening the lid. 
 
-I don't have any major issues with the MacBook Air. However, there are a few things that are preventing me from moving to Apple Silicon for my professional development in the near future. I hope that my experience could possibly help someone else looking to make the jump to Apple Silicon. 
+I really like my MacBook Air, but there are a few things that are preventing me from moving to Apple Silicon for my professional development in the near future. I hope that my experience could possibly help someone else looking to make the jump to Apple Silicon. 
 
 
 ## OpenJDK
