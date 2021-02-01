@@ -32,14 +32,14 @@ With some digging I was able to discover that Testcontainers depends on the [Jav
 
 ## Homebrew
 
-Most mac developers I know use [Homebrew](https://brew.sh) to install apps and scripts (i.e., httpie, jenv, openjdk, wget, jenv, and more) on the Mac. I counted 94 packages are installed on my system, and I would probably guess that I am on the lower end compared to other developers. 
+Most developers with Macs that I know use [Homebrew](https://brew.sh) to install apps and scripts (i.e., httpie, jenv, openjdk, wget, jenv, and more) on the Mac. I counted 94 packages installed on my system, and I would probably guess that I am on the lower end compared to other developers. 
 
 The good news is that Homebrew is adding support for Apple Silicon. The bad news is the support is in the early stages of supporting Apple Silicon. Currently, there are a few hurdles that must be overcome to use Homebrew on Apple Silicon. To prepare you, Homebrew currently recommends installing the Apple Silicon native version of Homebrew in `/opt/hombrew` and forbids installing it in `/usr/local`, to avoid clashing with the Intel version. There's also documentation for configuring two Terminals, one for apps natively and another for running apps in Rosetta. This bar is too high for me, so I will wait for it to mature some more before I proceed with Homebrew for Apple Silicon.   
 
 ## Virtualization / Emulation
 
-Let's face it, x86 software and hardware aren't going away anytime soon, and many developers still need to develop for them. This means that anyone who wants to transition to Apple Silicon, will need software to emulate the x86 platform, or a second x86 computer. As of writing this, neither [Parallels](https://www.parallels.com) or [VMWare Fusion](https://www.vmware.com/products/fusion.html) have committed to releasing a version of their software that can run on Apple Silicon and emulate x86 hardware. I really hope one of the companies commit to adding support for x86 hardware emulation soon, because I would prefer not having to maintain another machine just for legacy hardware :wink: :laughing:. 
+Let's face it, x86 software and hardware aren't going away anytime soon, and many developers still need to develop for them. This means that anyone who wants to transition to Apple Silicon will need software to emulate the x86 platform, or a second x86 computer. As of writing this, neither [Parallels](https://www.parallels.com) or [VMWare Fusion](https://www.vmware.com/products/fusion.html) have committed to releasing a version of their software that can run on Apple Silicon and emulate x86 hardware. I really hope one of the companies commit to adding support for x86 hardware emulation soon, because I would prefer not having to maintain another machine just for legacy hardware :wink: :laughing:. 
 
 # Conclusion
 
-Excluding the virtualization of x86 hardware, I imagine that my other issues will be resolved soon and once they are I will transition to Apple Silicon for professional development. I am really excited for Apple Silicon, and for other ARM processors in the future. It appears that desktop class ARM processors will push a once stagnant industry forward again.  
+Excluding the virtualization of x86 hardware, I imagine that my other issues will be resolved soon and once they are, I will transition to Apple Silicon for professional development. I am really excited for Apple Silicon, and for other ARM processors in the future. It appears that desktop class ARM processors will push a once stagnant industry forward again.  
