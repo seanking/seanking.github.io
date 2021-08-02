@@ -4,6 +4,9 @@ title: Reading List
 permalink: /readingList/
 ---
 
+# In Progress
+[TypeScript Quickly](https://www.manning.com/books/typescript-quickly) _by Yakov Fain, Anton Moiseev_
+
 # Recent Notables
 [Creativity, Inc.: Overcoming the Unseen Forces That Stand in the Way of True Inspiration](https://www.amazon.com/dp/B00FUZQYBO) _by Ed Catmull_
 [Kotlin in Action](https://www.manning.com/books/kotlin-in-action) _by Dmitry Jemerov and Svetlana Isakova_  
